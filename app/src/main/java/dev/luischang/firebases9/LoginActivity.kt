@@ -25,7 +25,12 @@ class LoginActivity : AppCompatActivity() {
         val etEmailLogin: EditText = findViewById(R.id.etEmailLogin)
         val etPasswordLogin: EditText = findViewById(R.id.etPasswordLogin)
         val btLogin: Button = findViewById(R.id.btLogin)
+        val btRegister: Button = findViewById(R.id.btRegister)
         val auth = FirebaseAuth.getInstance()
+
+        btRegister.setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
 
         btLogin.setOnClickListener {
             val email = etEmailLogin.text.toString()
@@ -39,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
                             .make(findViewById(android.R.id.content),
                                 "Inicio de sesión exitoso",
                                 Snackbar.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, PrincipalActivity::class.java))
                     }else{
                         //Error en el inicio de sesión
                         Snackbar

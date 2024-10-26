@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">FirebaseS9</string>
     <string name="valbtlogin">LOGIN</string>
+    <string name="contraseña">Enter password</string>
+    <string name="email">Enter email</string>
+    <string name="Registro">REGISTER</string>
+    <string name="notfound2">Full Name</string>
+    <string name="notfound1">Country</string>
+    <string name="valetEmail">Enter email</string>
+    <string name="valetFullName">Enter full name</string>
+    <string name="valetCountry">Enter country</string>
+    <string name="valbtSave">SAVE</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_animals">Animals</string>
+    <string name="menu_product">Product</string>
+    <string name="menu_register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
